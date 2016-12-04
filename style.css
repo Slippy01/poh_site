@@ -25,21 +25,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	/*Фон страницы*/
-	backgraund-color: white;
-	backgraund-image: url('img/fon.png');
-	backgraund-repeat: repeat;
-	backgraund-attachment: fixed;
-	backgraund-position: top,left;
-	
-	/*Размеры*/
-	wight: 100%;
-	height: 100%;
-	
-	/*Отступы и поля*/
-	margin: 0px;
-	padding: 0px;
-	
+		
 	line-height: 1;
 }
 ol, ul {
@@ -66,9 +52,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 body {
-	font: 12px/18px Arial, sans-serif;
-	width: 100%;
+	
+	/*Фон страницы*/
+	backgraund-color: white;
+	backgraund-image: url('img/fon.png');
+	backgraund-repeat: repeat;
+	backgraund-attachment: fixed;
+	backgraund-position: top,left;
+	
+	/*Размеры*/
+	wight: 100%;
 	height: 100%;
+	
+	/*Отступы и поля*/
+	margin: 0px;
+	padding: 0px;
+	
+	
+	font: 12px/18px Arial, sans-serif;
 }
 .wrapper {
 	width: 980px;
