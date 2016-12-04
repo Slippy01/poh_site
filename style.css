@@ -87,6 +87,23 @@ body {
 	background: #FFE680;
 }
 
+/* vmenu
+-----------------------------------------------------------------------------*/
+.vmenu {
+	/*Отступы и поля*/
+	margin: 0px;
+	padding: 0px;
+	
+	/*Размеры*/
+	width: 980px;
+	height: 38px;
+	
+	/*Фон меню*/
+	background-image: url('img/menu.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top,left;
+}
 
 /* Middle
 -----------------------------------------------------------------------------*/
