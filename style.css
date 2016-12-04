@@ -54,11 +54,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {
 	
 	/*Фон страницы*/
-	backgraund-color: white;
-	backgraund-image: url('img/fon.png');
-	backgraund-repeat: repeat;
-	backgraund-attachment: fixed;
-	backgraund-position: top,left;
+	background-color: white;
+	background-image: url('img/fon.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top,left;
 	
 	/*Размеры*/
 	wight: 100%;

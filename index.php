@@ -15,7 +15,7 @@
 
 	<header class="header">
 		<a href="index.php" target="_self">
-		<img alt="header img MISS 8_(" src="img/shapka.png" border="0" width="980" height="150" s/>
+		<img alt="header img MISS 8_(" src="img/shapka.png" border="0" width="980" height="150" />
 		</a>
 	</header><!-- .header-->
 
@@ -40,7 +40,7 @@
 </div><!-- .wrapper -->
 
 <footer class="footer">
-	<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
+	<img alt="podval img MISS 8_(" src="img/podval.png" border="0" width="980" height="50" />
 </footer><!-- .footer -->
 
 </body>
