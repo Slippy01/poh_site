@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
+	<!--  <meta charset="utf-8" /> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
 	<title></title>
 	<meta name="keywords" content="" />

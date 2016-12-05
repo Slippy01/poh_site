@@ -230,9 +230,9 @@ width:auto
 .orangellow.button:hover{background-color:#fc9200}
 
         @-webkit-keyframes greenPulse {
-		  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
-		  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
-		  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+		  from { background-color: #132712; -webkit-box-shadow: 0 0 9px #333; }
+		  50% { background-color: #010301; -webkit-box-shadow: 0 0 18px #010301; }
+		  to { background-color: #132712; -webkit-box-shadow: 0 0 9px #333; }
 		}
 
 		@-webkit-keyframes bluePulse {
