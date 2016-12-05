@@ -1,3 +1,8 @@
+<?php 
+require_once 'lib.php';
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,7 +41,11 @@
 			<main class="content">
 				<div class='sheet'>
 				<div class='sheet1'></div>
-				<div class='sheet2'></div>
+				<div class='sheet2'>
+				<?php 
+				makeOpisan();
+				?>
+				</div>
 				<div class='sheet3'></div>
 				</div>
 			</main><!-- .content -->

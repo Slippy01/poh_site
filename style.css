@@ -187,6 +187,38 @@ body {
 }
 
 
+/* Opisan
+-----------------------------------------------------------------------------*/
+.div_opisan{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: verdana, arial, serif;
+	font-stile: normal;
+	font-weight: normal;
+	line-heigt: 22px;
+	color: ffffff;
+	width: 530px;
+	
+	white-space: normal;
+	text-align: justify;
+}
+
+
+
+.h1_opisan{
+	text-decoration: none;
+	font-size: 25px;
+	font-family: verdana, arial, serif;
+	font-stile: italic;
+	font-weight: blod;
+	line-heigt: 40px;
+	color: red;
+	width: 530px;
+	text-align: center;
+	
+}
+
+
 /* Buttons
 -----------------------------------------------------------------------------*/
 .wall-of-buttons {
