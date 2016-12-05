@@ -9,10 +9,10 @@ define("DbName", "u852109372_poh");
 
 function makeOpisan()
 {
-	$db=mysql_connect("ServerName","UserLogin","UserPassword")
+	$db=mysql_connect(ServerName,UserLogin,UserPassword)
 	or die ('Not connected1 : ' . mysql_error());
 	if($db){
-		if(mysql_select_db("DbName",$db))
+		if(mysql_select_db(DbName,$db))
 		{
 			mysql_query("SET names 'utf8'",$db);
 			
