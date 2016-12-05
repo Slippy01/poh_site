@@ -58,7 +58,7 @@ require_once 'lib.php';
 		</div><!-- .container-->
 
 		<?php 
-		getHTML(getHTML()+1);
+		getHTML(getIdMenu()+1);
 		?>
 
 		<aside class="right-sidebar">

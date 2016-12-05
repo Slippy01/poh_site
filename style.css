@@ -131,10 +131,32 @@ body {
 -----------------------------------------------------------------------------*/
 .left-sidebar {
 	float: left;
-	width: 180px;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	margin-left: -100%;
 	position: relative;
 	background: #000000;
+}
+
+.left-sidebar img {
+	border: #000066 6px double;
+}
+
+.left-sidebar h1 {
+	color: white;
+	line-height: 50px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: verdanna, arial, serif;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+}
+
+.left-sidebar h1:HOVER {
+	border: red 6px double;
 }
 
 
