@@ -25,8 +25,8 @@ function makeOpisan()
 				$row= mysql_fetch_row($rez);
 				$naim=$row[1];
 				$txt=$row[2];
-				$out_page .= "<h1 class='h1_opisan'>($naim)</h1>".
-				"<div class= 'div_opisan'>($txt)</div><br/>";
+				$out_page .= "<h1 class='h1_opisan'>{$naim}</h1>".
+				"<div class= 'div_opisan'>{$txt}</div><br/>";
 			}
 			//mysql_query("INSERT INTO tovar (nami,kol) VALUES (1,10)");
 			echo $out_page;
@@ -37,6 +37,51 @@ function makeOpisan()
 	{
 		//echo "ERROR_1";
 	}	
+}
+
+
+function getIdMenu()
+{
+	$tmp =0;
+	if($_GET)
+	{
+		if($_GET["id"])
+		{
+			$tmp = $_GET["id"];
+		}
+		
+		if(!($tmp>=1)&&($tmp<=3))
+		{
+			$tmp=0;
+		}
+	}
+	return $tmp;
+}
+
+
+function getHTML($nom)
+{
+	$html ="";
+	
+	$db=mysql_connect(ServerName,UserLogin,UserPassword)
+	or die ('Not connected1 : ' . mysql_error());
+	
+	if($db){
+		if(mysql_select_db(DbName,$db))
+		{
+			mysql_query("SET names 'utf8'",$db);
+				
+			$rez = mysql_query("SELECT * FROM razmetka WHERE (id={$nom})");
+			$kol_str= mysql_num_rows($rez);	
+			if($kol_str==1)
+			{
+				$row = mysql_fetch_row($rez);
+				$html= $row[1];
+			}
+		}
+		mysql_close($db);
+	}
+	echo $html;
 }
 
 ?>
