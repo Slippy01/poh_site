@@ -160,6 +160,33 @@ body {
 }
 
 
+/* Sheet
+-----------------------------------------------------------------------------*/
+.sheet{
+	width: 550px;
+	padding: 15px;
+}
+
+.sheet1{
+	width: 550px;
+	padding: 10px;
+	background: url('img/sheet1.png') left top no-repeat;
+}
+
+.sheet2{
+	width: 550px;
+	height: auto;
+	padding: 0px 10px;
+	background: url('img/sheet2.png') left top repeat-y;
+}
+
+.sheet3{
+	width: 550px;
+	padding: 10px;
+	background: url('img/sheet3.png') left top no-repeat;
+}
+
+
 /* Buttons
 -----------------------------------------------------------------------------*/
 .wall-of-buttons {
@@ -236,21 +263,21 @@ width:auto
 		}
 
 		@-webkit-keyframes bluePulse {
-		  from { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
-		  50% { background-color: #2daebf; -webkit-box-shadow: 0 0 18px #2daebf; }
-		  to { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
+		  from { background-color: #002137; -webkit-box-shadow: 0 0 9px #333; }
+		  50% { background-color: #000405; -webkit-box-shadow: 0 0 18px #000405; }
+		  to { background-color: #002137; -webkit-box-shadow: 0 0 9px #333; }
 		}
 
 		@-webkit-keyframes redPulse {
-		  from { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }
-		  50% { background-color: #e33100; -webkit-box-shadow: 0 0 18px #e33100; }
-		  to { background-color: #bc330d; -webkit-box-shadow: 0 0 9px #333; }
+		  from { background-color: #300d03; -webkit-box-shadow: 0 0 9px #333; }
+		  50% { background-color: #1a0600; -webkit-box-shadow: 0 0 18px #1a0600; }
+		  to { background-color: #300d03; -webkit-box-shadow: 0 0 9px #333; }
 		}
 
 		@-webkit-keyframes magentaPulse {
-		  from { background-color: #630030; -webkit-box-shadow: 0 0 9px #333; }
-		  50% { background-color: #a9014b; -webkit-box-shadow: 0 0 18px #a9014b; }
-		  to { background-color: #630030; -webkit-box-shadow: 0 0 9px #333; }
+		  from { background-color: #000000; -webkit-box-shadow: 0 0 9px #333; }
+		  50% { background-color: #42011d; -webkit-box-shadow: 0 0 18px #42011d; }
+		  to { background-color: #000000; -webkit-box-shadow: 0 0 9px #333; }
 		}
 
 		@-webkit-keyframes orangePulse {

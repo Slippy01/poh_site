@@ -22,10 +22,10 @@
 
 	<div class="vmenu">
 		<div class="wall-of-buttons">
-		<a class="large green button">Главная</a>
-		<a class="large blue button">Товары</a>
-		<a class="large magenta button">Заказать</a>
-		<a class="large red button">Контакты</a>
+		<a class="large green button" href="index.php" target="_self">Главная</a>
+		<a class="large blue button" href="index.php?id=1" target="_self">Товары</a>
+		<a class="large magenta button" href="index.php?id=2" target="_self">Заказать</a>
+		<a class="large red button" href="index.php?id=3" target="_self">Контакты</a>
 		</div>
 	</div>
 
@@ -34,7 +34,11 @@
 
 		<div class="container">
 			<main class="content">
-				<strong>Content:</strong> Sed placerat accumsan ligula. Aliquam felis magna, congue quis, tempus eu, aliquam vitae, ante. Cras neque justo, ultrices at, rhoncus a, facilisis eget, nisl. Quisque vitae pede. Nam et augue. Sed a elit. Ut vel massa. Suspendisse nibh pede, ultrices vitae, ultrices nec, mollis non, nibh. In sit amet pede quis leo vulputate hendrerit. Cras laoreet leo et justo auctor condimentum. Integer id enim. Suspendisse egestas, dui ac egestas mollis, libero orci hendrerit lacus, et malesuada lorem neque ac libero. Morbi tempor pulvinar pede. Donec vel elit.
+				<div class='sheet'>
+				<div class='sheet1'></div>
+				<div class='sheet2'></div>
+				<div class='sheet3'></div>
+				</div>
 			</main><!-- .content -->
 		</div><!-- .container-->
 
