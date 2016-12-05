@@ -25,7 +25,7 @@ function makeOpisan()
 				$row= mysql_fetch_row($rez);
 				$naim=$row[1];
 				$txt=$row[2];
-				$out_page .= "<h1 class='h1_opisan'>{$naim}</h1>".
+				$out_page .= "<h1 class='h1_opisan'>{$naim}</h1><br>".
 				"<div class= 'div_opisan'>{$txt}</div><br/>";
 			}
 			//mysql_query("INSERT INTO tovar (nami,kol) VALUES (1,10)");
@@ -69,7 +69,7 @@ function getHTML($nom)
 	if($db){
 		if(mysql_select_db(DbName,$db))
 		{
-			mysql_query("SET names 'utf8'",$db);
+			mysql_query("SET names 'cp1251'",$db);
 				
 			$rez = mysql_query("SELECT * FROM razmetka WHERE (id={$nom})");
 			$kol_str= mysql_num_rows($rez);	

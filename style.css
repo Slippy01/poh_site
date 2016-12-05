@@ -131,10 +131,10 @@ body {
 -----------------------------------------------------------------------------*/
 .left-sidebar {
 	float: left;
-	width: 250px;
+	width: 180px;
 	margin-left: -100%;
 	position: relative;
-	background: #B5E3FF;
+	background: #000000;
 }
 
 
