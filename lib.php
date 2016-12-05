@@ -14,7 +14,7 @@ function makeOpisan()
 	if($db){
 		if(mysql_select_db(DbName,$db))
 		{
-			mysql_query("SET names 'windows-1251'",$db);
+			mysql_query("SET names 'cp1251'",$db);
 			
 			$rez = mysql_query("SELECT * FROM opisan",$db);
 			
