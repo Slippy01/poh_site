@@ -20,7 +20,12 @@
 	</header><!-- .header-->
 
 	<div class="vmenu">
-	
+		<div class="wall-of-buttons">
+		<a class="large green button">Главная</a>
+		<a class="large blue button">Товары</a>
+		<a class="large magenta button">Заказать</a>
+		<a class="large red button">Контакты</a>
+		</div>
 	</div>
 
 
