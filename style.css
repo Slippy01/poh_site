@@ -164,14 +164,16 @@ body {
 -----------------------------------------------------------------------------*/
 .right-sidebar {
 	float: left;
-	height: 200px;
 	width: 350px;
-	margin-left: -250px;
+	right: 20px; 
 	position: relative;
 	background: #000000 url('img/shar.png');
 }
 
 
+.right-sidebar div {
+	
+}
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {

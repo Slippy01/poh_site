@@ -49,21 +49,23 @@ require_once 'lib.php';
 				{
 					makeOpisan();
 				}
-				
 				?>
 				</div>
 				<div class='sheet3'></div>
 				</div>
 			</main><!-- .content -->
 		</div><!-- .container-->
+
+		<?php 
+		getHTML(getIdMenu()+1);
+		?>
+
 		
 		<?php 
 		getHTML(5);
 		?>
 			
-		<?php 
-		getHTML(getIdMenu()+1);
-		?>
+		
 
 	</div><!-- .middle-->
 
