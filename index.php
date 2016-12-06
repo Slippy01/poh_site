@@ -62,7 +62,9 @@ require_once 'lib.php';
 		?>
 
 		<aside class="right-sidebar">
-			<strong>Right Sidebar:</strong> Integer velit. Vestibulum nisi nunc, accumsan ut, vehicula sit amet, porta a, mi. Nam nisl tellus, placerat eget, posuere eget, egestas eget, dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elementum urna a eros. Integer iaculis. Maecenas vel elit.
+			
+			<object type="application/x-shockwave-flash" height="260" width="442" data="1077_lcd.swf"><param name="movie" value="1077_lcd.swf" /><param name="wmode" value="transparent" /><param name="flashvars" value="&in_title=Спонсор&&Video_url=https://www.youtube.com/watch?v=eh7lp9umG2I
+			
 		</aside><!-- .right-sidebar -->
 
 	</div><!-- .middle-->
