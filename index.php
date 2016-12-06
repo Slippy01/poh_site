@@ -61,13 +61,12 @@ require_once 'lib.php';
 		getHTML(getIdMenu()+1);
 		?>
 
-		<aside class="right-sidebar">
+		
+		<?php 
+		getHTML(5);
+		?>
 			
-			<?php 
-			getHTML(5);
-			?>
-			
-		</aside><!-- .right-sidebar -->
+		
 
 	</div><!-- .middle-->
 
