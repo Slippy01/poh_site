@@ -63,7 +63,9 @@ require_once 'lib.php';
 
 		<aside class="right-sidebar">
 			
-			<object type="application/x-shockwave-flash" height="260" width="442" data="1077_lcd.swf"><param name="movie" value="1077_lcd.swf" /><param name="wmode" value="transparent" /><param name="flashvars" value="&in_title=Спонсор&&Video_url=https://www.youtube.com/watch?v=eh7lp9umG2I
+			<?php 
+			getHTML(5);
+			?>
 			
 		</aside><!-- .right-sidebar -->
 

@@ -164,10 +164,11 @@ body {
 -----------------------------------------------------------------------------*/
 .right-sidebar {
 	float: left;
-	width: 250px;
+	height: 200px;
+	width: 350px;
 	margin-left: -250px;
 	position: relative;
-	background: #FFACAA;
+	background: #000000 url('img/shar.png');
 }
 
 
