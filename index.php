@@ -56,17 +56,14 @@ require_once 'lib.php';
 				</div>
 			</main><!-- .content -->
 		</div><!-- .container-->
-
-		<?php 
-		getHTML(getIdMenu()+1);
-		?>
-
 		
 		<?php 
 		getHTML(5);
 		?>
 			
-		
+		<?php 
+		getHTML(getIdMenu()+1);
+		?>
 
 	</div><!-- .middle-->
 
