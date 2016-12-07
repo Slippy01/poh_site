@@ -31,7 +31,7 @@ require_once 'lib.php';
 		<a class="large green button" href="index.php" target="_self">Главная</a>
 		<a class="large blue button" href="index.php?id=1" target="_self">Товары</a>
 		<a class="large magenta button" href="index.php?id=2" target="_self">Заказать</a>
-		<a class="large red button" href="index.php?id=3" target="_self">Контакты</a>
+		<a class="large red button" href="index.php?id=3" target="_self">FAQ</a>
 		</div>
 	</div>
 
@@ -46,7 +46,6 @@ require_once 'lib.php';
 				
 				
 				
-				
 				<?php 
 				$id_menu=getIdMenu();
 				if($id_menu==1)
@@ -56,6 +55,10 @@ require_once 'lib.php';
 				else if($id_menu==0)
 				{
 					getHTML(6);
+				}
+				else if($id_menu==3)
+				{
+					getHTML(7);
 				}
 				?>
 				</div>
