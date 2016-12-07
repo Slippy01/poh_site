@@ -25,8 +25,9 @@ function makeOpisan()
 				$row= mysql_fetch_row($rez);
 				$naim=$row[1];
 				$txt=$row[2];
+				$img=$row[3];
 				$out_page .= "<h1 class='h1_opisan'>{$naim}</h1><br>".
-				"<div class= 'div_opisan'>{$txt}</div><br/>";
+				"<div class= 'div_opisan'><img class='img_opisan' src='{$img}'>{$txt}</div><br/>";
 			}
 			//mysql_query("INSERT INTO tovar (nami,kol) VALUES (1,10)");
 			echo $out_page;

@@ -14,6 +14,7 @@ require_once 'lib.php';
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="poh.js"></script>
 </head>
 
 <body>
