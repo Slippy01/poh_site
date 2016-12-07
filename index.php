@@ -43,11 +43,19 @@ require_once 'lib.php';
 				<div class='sheet'>
 				<div class='sheet1'></div>
 				<div class='sheet2'>
+				
+				
+				
+				
 				<?php 
 				$id_menu=getIdMenu();
 				if($id_menu==1)
 				{
 					makeOpisan();
+				}
+				else if($id_menu==0)
+				{
+					getHTML(6);
 				}
 				?>
 				</div>

@@ -101,8 +101,10 @@ body {
 	/*‘он меню*/
 	background-image: url('img/menu.png');
 	background-repeat: repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: top,left;
+	
+	
 }
 
 /* Middle
@@ -111,6 +113,7 @@ body {
 	width: 100%;
 	padding: 0 0 50px;
 	position: relative;
+	background-attachment: scroll;
 }
 .middle:after {
 	display: table;
@@ -171,8 +174,17 @@ body {
 }
 
 
-.right-sidebar div {
-	
+.right-sidebar h1 {
+	color: white;
+	line-height: 30px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: verdanna, arial, serif;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	white-space: nowrap;
 }
 /* Footer
 -----------------------------------------------------------------------------*/
