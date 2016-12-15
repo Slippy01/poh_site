@@ -2,7 +2,14 @@
 require_once 'lib.php';
 //echo getIdMenu();
 ?>
+<?php 
+session_start();
+if(!isset($_SESSION['cart'])){
+	$_SESSION['cart']=array();
+}
 
+$smarty->assign('cartCntItems', count($_SESSION['cart']));
+?>
 
 <!DOCTYPE html>
 <html>
@@ -14,7 +21,31 @@ require_once 'lib.php';
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="style.css" rel="stylesheet">
+	
 	<script type="text/javascript" src="poh.js"></script>
+	<script type="text/javascript" src="Main.js"></script>
+	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+	<!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+	<script type="text/javascript">
+
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+
 </head>
 
 <body>
@@ -30,7 +61,7 @@ require_once 'lib.php';
 	<div class="vmenu">
 		<div class="wall-of-buttons">
 		<a class="large green button" href="index.php" target="_self">Главная</a>
-		<a class="large blue button" href="index.php?id=1" target="_self">Товары</a>
+		<a class="large blue button" href="index.php?id=1" target="_self">Товары </a><span id="cartCntItems"><?php if($cartCntItems > 0){echo $cartCntItems;}else{echo "";}?></span>
 		<a class="large magenta button" href="index.php?id=2" target="_self">Заказать</a>
 		<a class="large red button" href="index.php?id=3" target="_self">FAQ</a>
 		</div>
@@ -86,6 +117,6 @@ require_once 'lib.php';
 <footer class="footer">
 	<img alt="podval img MISS 8_(" src="img/podval.png" border="0" width="980" height="50" />
 </footer><!-- .footer -->
-
+<a href="#" class="scrollup">Наверх</a>
 </body>
 </html>
