@@ -1,7 +1,7 @@
 /**
  * 
  */
-/*function addToCart(itemId){
+function addToCart(itemId){
 	console.log("js - addToCart()");
 	$.ajax({
 		type: 'POST',
@@ -18,4 +18,4 @@
 		}
 		
 	})
-}*/
+}
