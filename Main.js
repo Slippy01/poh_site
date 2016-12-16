@@ -1,6 +1,7 @@
 /**
  * 
  */
+/*
 function addToCart(itemId){
 	console.log("js - addToCart()");
 	$.ajax({
@@ -19,3 +20,4 @@ function addToCart(itemId){
 		
 	})
 }
+*/

@@ -1,5 +1,5 @@
 <?php
-
+/*
 function addtocartAction(){
 	$itemId=isset($_GET['id']) ? intval($_GET['id']) : null;
 	if(! $itemId) return false;
@@ -18,5 +18,5 @@ function addtocartAction(){
 	}
 	echo json_encode($resData);
 }
-
+*/
 ?>
