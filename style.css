@@ -270,10 +270,10 @@ body {
 }
 
 .img_opisan{
-	width: 530px;
-	height: 500px; 
+	width: 100px;
+	height: 200px; 
   	alt: Изображение; 
- 	align:center;
+ 	align:left;
   	vspace:5px;
  	hspace:5px;
 	
