@@ -1,14 +1,14 @@
 <?php 
 require_once 'lib.php';
 //echo getIdMenu();
-/*
+
 session_start();
 if(!isset($_SESSION['cart'])){
 	$_SESSION['cart']=array();
 }
 
 $smarty->assign('cartCntItems', count($_SESSION['cart']));
-*/
+
 ?>
 
 <!DOCTYPE html>
