@@ -22,11 +22,11 @@ $smarty->assign('cartCntItems', count($_SESSION['cart']));
 	<link href="style.css" rel="stylesheet">
 	
 	<script type="text/javascript" src="poh.js"></script>
-	<!--<script type="text/javascript" src="Main.js"></script>
-	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Main.js"></script>
+	<!--<script type="text/javascript" src="jquery-1.7.1.min.js"></script>-->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript">
-
+<?php
 $(document).ready(function(){
  
 $(window).scroll(function(){
@@ -43,6 +43,7 @@ return false;
 });
  
 });
+?>
 </script>
 
 </head>
@@ -60,7 +61,7 @@ return false;
 	<div class="vmenu">
 		<div class="wall-of-buttons">
 		<a class="large green button" href="index.php" target="_self">Главная</a>
-		<a class="large blue button" href="index.php?id=1" target="_self">Товары </a><span id="cartCntItems"><?php /* if($cartCntItems > 0){echo $cartCntItems;}else{echo "";}*/?></span>
+		<a class="large blue button" href="index.php?id=1" target="_self">Товары </a><span id="cartCntItems"><?php if($cartCntItems > 0){echo $cartCntItems;}else{echo "";}?></span>
 		<a class="large magenta button" href="index.php?id=2" target="_self">Заказать</a>
 		<a class="large red button" href="index.php?id=3" target="_self">FAQ</a>
 		</div>
